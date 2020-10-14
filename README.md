@@ -1,5 +1,7 @@
 ## Code to run the DVR algorithm
 
+This repository contains the code for the NeurIPS paper "Dual-Free Stochastic Decentralized Optimization with Variance Reduction", which introduces the DVR algorithm. Details and theory for the algorithm can be found in the paper (DVR.pdf file).  
+
 # Requirements
 
 Create a new python 3 environment:
