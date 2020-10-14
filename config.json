@@ -1,0 +1,25 @@
+{
+    "seed": 0,
+    "path_to_data": "rcv1_test.binary",
+    "path_to_data_covtype": "covtype.libsvm.binary.scale",
+    "n_features": 47236,
+    "n_features_covtype": 54,
+    "zero_based": false,
+    "length": 350000000,
+    "N": 10000,
+    "c": 1e-5,
+    "nb_epochs": 400,
+    "output_path": "output",
+    "cache_path": "cache",
+    "computation_time": 1,
+    "communication_time": 1000,
+    "graph": "ring",
+    "solvers": [
+        ["EXTRA", {"batch_factor": 0.01}],
+        ["NIDS", {"batch_factor": 0.01}],
+        ["EXTRACata", {"batch_factor": 0.01}],
+        ["DVR", {"batch_factor": 0.01}],
+        ["DVRCheb", {"batch_factor": 0.01}],
+        ["DVRCata", {"batch_factor": 0.01}]
+    ]
+}
